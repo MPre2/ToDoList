@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="./assets/rocket.svg" /><!--Favicon-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" /><!--Fuente-->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&family=Parisienne&display=swap"
+    rel="stylesheet" /><!--Fuentes-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /><!--Importamos una hoja de estilo-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="styles.css" /><!--Hoja de estilo CSS local-->
+  <title>TODO App</title>
+</head>
+
+<body>
+  <main>
+    <div class="mainCard">
+      <div class="title"><img src="./assets/rocket.svg" alt="Rocket" /></div>
+      <div>
+        <form action="">
+          <input type="text" name="task" placeholder="Nombre de la tarea" class="inputForm" autocomplete="off"
+            data-form-input />
+          <input type="datetime-local" data-form-date placeholder="YYYY/MM/DD" />
+          <button type="submit" class="btnCreate" data-form-btn>
+            Agregar <i class="fas fa-plus-circle"></i>
+          </button>
+        </form>
+      </div>
+      <ul class="cardsList" data-list><!--Agregamos el contenido de la etiqueta input en modo lista mediante JavaScript-->
+      </ul>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script><!--Importamos una libreria externa-->
+  <script type="module" src="main.js"></script><!--Conectamos con el archivo JavaScript-->
+</body>
+
+</html>
