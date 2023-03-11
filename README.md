@@ -4,4 +4,4 @@
 Web app de gestion de agenda simple utilizando LOCALSTORAGE en el navegador.
 
 ## Lenguajes utilizados
-  #HTML --- #CSS --- #JAVASCRIPT
+![](./assets/html.png) ![](./assets/css.png) ![](./assets/js.png)
